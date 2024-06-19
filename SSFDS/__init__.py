@@ -15,7 +15,7 @@ app = Flask(__name__)
 # and mail server configuration. Creates instances of SQLAlchemy,  
 # Bcrypt, LoginManager, and Mail.
 app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
-app.config['SQLALCHEMY_DATABASE_URI'] ='sqlite:///site.db'
+app.config['SQLALCHEMY_DATABASE_URI'] ='postgresql://ssfds1_user:OxaTsquvd9N0FtWVMVUQw2PpNIlxJZEq@dpg-cppeelo8fa8c739egsc0-a.oregon-postgres.render.com/ssfds1'
 app.config['RECAPTCHA_PUBLIC_KEY'] = '6LfqZKEpAAAAABXmGAAsW6LwcsmYi59vm-I5H5HW'  # Replace with your reCAPTCHA public key
 app.config['RECAPTCHA_PRIVATE_KEY'] = '6LfqZKEpAAAAADPr646iwLraCTpcHSV_pUJkMYXF'  # Replace with your reCAPTCHA private key
 app.config['RECAPTCHA_USE_SSL'] = False
